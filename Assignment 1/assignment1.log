@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.4.4)  13 APR 2022 10:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.4.4)  13 APR 2022 10:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -212,22 +212,22 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 8.
 LaTeX Font Info:    ... okay on input line 8.
 
 -- Lines per column: 50 (exact).
-
-Underfull \hbox (badness 10000) in paragraph at lines 14--15
-
- []
-
-LaTeX Font Info:    Trying to load font information for U+msa on input line 17.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 14.
 
 (C:\Users\prabh\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 17.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 14.
 
 
 (C:\Users\prabh\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
+Underfull \hbox (badness 10000) in paragraph at lines 14--15
+
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 23--25
 
  []
@@ -240,7 +240,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 23--25
 (assignment1.aux) ) 
 Here is how much of TeX's memory you used:
  2552 strings out of 478582
- 41885 string characters out of 2844345
+ 41991 string characters out of 2844345
  339018 words of memory out of 3000000
  20763 multiletter control sequences out of 15000+600000
  498286 words of font info for 87 fonts, out of 8000000 for 9000
@@ -256,7 +256,7 @@ grams/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/prabh/AppData/
 Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/prabh/
 AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/prabh/
 AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb>
-Output written on assignment1.pdf (1 page, 82448 bytes).
+Output written on assignment1.pdf (1 page, 82458 bytes).
 PDF statistics:
  47 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
