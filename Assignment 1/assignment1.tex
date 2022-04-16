@@ -2,7 +2,7 @@
 
 
 \usepackage{amsmath,amssymb,amsthm}
-
+\usepackage{graphicx}
 
 
 \begin{document}
@@ -23,9 +23,7 @@
 	\textbf{SOLUTION}:-\\
 	Using Componendo and Dividendo rule that is if $  \frac{a}{b} =\frac{c}{d} \implies \frac{a+b}{a-b} =\frac{c+d}{c-d}; $ on the given expression\\
 	
-	 \begin{equation}
-	 		\dfrac{\sqrt{5x}+\sqrt{2x-6}}{\sqrt{5x}-\sqrt{2x-6}} =\dfrac{4}{1} 
-	 \end{equation}
+	 $	\dfrac{\sqrt{5x}+\sqrt{2x-6}}{\sqrt{5x}-\sqrt{2x-6}} =\dfrac{4}{1} $
 	
 	\begin{align}
 		\dfrac{\sqrt{5x}+\sqrt{2x-6}+\sqrt{5x}-\sqrt{2x-6}}{\sqrt{5x}+\sqrt{2x-6}-\sqrt{5x}+\sqrt{2x-6}} =\dfrac{4+1}{4-1} \\ 
@@ -36,6 +34,20 @@
 		\implies \boxed{ x=30} 
 	\end{align}
 	
+	\medskip
 	
+	In order to varify the solution using graph we can reduce the given form into a polynomial form by rationalization and squaring .By doing these operations along with simplification we get a quaderatic equation 
+	\begin{equation}
+		3x^{2}-84x-180=0
+	\end{equation}
+whose roots are $ -2 $ and $ 30 $ as the graph cuts $  x- axis $ at $  x= -2 $ and $ x=30 $. But since we have squared the original equation ,so one extra root which is$  x= -2  $,we are getting. Also one can see the domain of original equation is$  [3,\infty] $ since the value inside square root cannot be negative real number. 
+	\begin{figure}[h]
+		
+		\includegraphics[scale=0.6]{output2.png}
+		
+		\caption{Output of the python program}
+		
+	\end{figure}
 	
+	Since at $ x=30 $ the graph cuts the $ x-axis \implies x=30 $ is solution for given equation.
 \end{document}
