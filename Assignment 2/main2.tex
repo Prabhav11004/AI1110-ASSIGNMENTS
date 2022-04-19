@@ -1,0 +1,40 @@
+
+\documentclass[journal,12pt,twocolumn]{IEEEtran}
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{bigints}
+\DeclareMathOperator{\di}{d\!}
+
+\begin{document}
+	\title{\textbf{AI1110 Assignment 2} }
+	\author{\textbf{Prabhav Singh}\\\textbf{BT21BTECH11004}\\ ICSE Grade 12 2019 paper}
+	\maketitle
+	
+	{\section*{Question 13}}
+	
+	{\large \underline{Question}:\newline}
+	
+	Evaluate:
+	\begin{equation}
+		\int_{0}^{{\pi}} \dfrac{x \tan x}{\sec x + \tan x } \,\di x 
+	\end{equation}\\
+	
+	{\large \underline{Solution}:}\\
+	 	\begin{equation}
+	 I=	\int_{0}^{{\pi}} \dfrac{x \tan x}{\sec x + \tan x } \,\di x 
+	 \end{equation}\\
+	\begin{align}
+	&=	\int_{0}^{{\pi}} \dfrac{({\pi-x})\tan({\pi-x})}{\sec({\pi-x})  + \tan ({\pi-x}) } \,\di x   \\
+	\implies I 	&= {\pi}\int_{0}^{{\pi}} \dfrac{\tan x}{\sec x  + \tan x } \,\di x  -I \\
+	\implies 2I	&=  {\pi}\int_{0}^{{\pi}} \dfrac{\tan x}{\sec x  + \tan x } \,\di x \\
+	        	&=  {\pi}\int_{0}^{{\pi}} \dfrac{\tan x}{\sec x  + \tan x } \times\dfrac{\sec x -\tan x}{\sec x -\tan x}\,\di x  \\
+	        	&= {\pi}\int_{0}^{{\pi}} \tan x(\sec x-\tan x)\,\di x\\
+	        	&=  {\pi}\int_{0}^{{\pi}}( \tan x\sec x-\tan^2 x)\,\di x\\
+	        	&={\pi} \left[\sec x -\tan x +x \right]^{\pi}_{0}\\
+	        	&= {\pi}(-1+{\pi}-1)\\
+	\implies 2I &={\pi}({\pi}-2) \\
+	\implies I  &= \dfrac{{\pi}({\pi}-2)}{2}      	
+		\end{align}
+	
+\end{document}
