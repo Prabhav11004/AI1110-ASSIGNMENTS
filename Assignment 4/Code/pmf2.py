@@ -27,17 +27,15 @@ Z = np.cumsum(Y)
 #Extra points
 X_pmf = np.array([0, 3])
 Y_pmf = np.array([0, 0])
-X_cdf = np.array([-1, 0, 3])
-Y_cdf = np.array([0, 0, 1])
 
-#Arrays for ticks
-T = np.array([-1, 0, 1, 2, 3])
+
+
 
 #Plotting the PMF
 plt.subplot(1, 2, 1)
 plt.xlabel('Value of X')
 plt.ylabel('Probability Mass Function')
-plt.xticks(T)
+
 stem(X, Y, linefmt='k--', markerfmt='ko', basefmt='k-')
 stem(X_pmf, Y_pmf, linefmt='k--', markerfmt='ko', basefmt='k-')
 
