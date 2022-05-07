@@ -78,21 +78,32 @@
 		\begin{align}
 		  n(S) = 52 
 		  \end{align}
-		
-		\item Probability that the card is an ace of spades
+			In PMF approach :
 		\begin{align}
-			\pr{X = 0} &= \frac{1}{52}
+			\pr{X = r} = {n\choose r}\times p^{r} \times (1-p)^{n-r} 
 		\end{align}
-		\item Probability that the card is an ace card
+		\item Probability that the card is an ace of spades, for this $  n=1 ,r=1 , p=\frac{1}{52} $
 		\begin{align}
-			\pr{X = 1} &= \frac{4}{52}\\
+			\pr{X = 0} &= {1\choose 1}\times (\frac{1}{52})^{1} \times (1-\frac{1}{52})^{1-1} \\
+			&= \frac{1}{52}
+		\end{align}
+
+		\item Probability that the card is an ace card, for this $  n=1, r=1 ,p=\frac{4}{52}  $
+		\begin{align}
+			\pr{X = 1} &= {1\choose 1}\times (\frac{4}{52})^{1} \times (1-\frac{4}{52})^{1-1}  \\
 			&=\frac{1}{13}
 		\end{align}
-		\item Probability that the card is black
+		\item Probability that the card is black, for this $  n=1, r=1 ,p=\frac{26}{52}  $
 		\begin{align}
-			\pr{X = 2} &= \frac{26}{52}\\
+			\pr{X = 2} &= {1\choose 1}\times (\frac{26}{52})^{1} \times (1-\frac{26}{52})^{1-1}\\
 			&=\frac{1}{2}
 		\end{align}
+	\begin{figure}[!ht]
+		\centering
+		\includegraphics[width=\columnwidth]{C:/Users/prabh/AI1110 ASSIGNMENTS/Assignment 4/Figure/pmf2.png}
+		\caption{Plot of the PMF}
+		\label{fig:pmf}
+	\end{figure}
 		
 	\end{enumerate}
 \end{document}
