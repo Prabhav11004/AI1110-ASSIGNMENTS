@@ -42,4 +42,4 @@ stem(X, Y, linefmt='k--', markerfmt='ko', basefmt='k-')
 stem(X_pmf, Y_pmf, linefmt='k--', markerfmt='ko', basefmt='k-')
 
 
-plt.savefig('C:/Users/prabh/New folder/pmf2.png')
+plt.savefig('C:/Users/prabh/AI1110 ASSIGNMENTS/Assignment 4/Code/pmf2.png')
