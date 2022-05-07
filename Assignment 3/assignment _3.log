@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.4.4)  28 APR 2022 00:00
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.4.4)  28 APR 2022 13:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -911,7 +911,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 LaTeX Warning: Command \textendash invalid in math mode on input line 246.
 
-(C:/Users/prabh/AI1110 ASSIGNMENTS/Assignment 3/Table/Q14_Table.tex
+(C:/Users/prabh/Downloads/f_dist.tex
 \gnumericTableWidth=\skip70
 \gnumericTableWidthComplete=\skip71
 \gnumericMultiRowLength=\skip72
@@ -942,13 +942,13 @@ Package rerunfilecheck Info: File `"assignment _3".out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 24108 strings out of 478582
- 446518 string characters out of 2844345
- 716204 words of memory out of 3000000
- 41866 multiletter control sequences out of 15000+600000
+ 24109 strings out of 478582
+ 446374 string characters out of 2844345
+ 716201 words of memory out of 3000000
+ 41867 multiletter control sequences out of 15000+600000
  509470 words of font info for 115 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 100i,12n,104p,509b,331s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 100i,12n,104p,509b,332s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {C:/Users/prabh/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:
 /Users/prabh/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi1
 2.pfb><C:/Users/prabh/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
