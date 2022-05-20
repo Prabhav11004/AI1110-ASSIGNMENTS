@@ -1,0 +1,55 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Welcome to Overleaf --- just edit your LaTeX on the left,
+% and we'll compile it for you on the right. If you open the
+% 'Share' menu, you can invite other users to edit at the same
+% time. See www.overleaf.com/learn for more info. Enjoy!
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+% Inbuilt themes in beamer
+\documentclass{beamer}
+
+% Theme choice:
+\usetheme{CambridgeUS}
+
+% Title page details: 
+\title{Assignment 6} 
+\author{PRABHAV SINGH (BT21BTECH11004)}
+\date{21 May 2022}
+\logo{\large \LaTeX{}}
+
+\begin{document}
+	
+	% Title page frame
+	\begin{frame}
+		\titlepage 
+	\end{frame}
+	
+	% Remove logo from the next slides
+	\logo{}
+	
+	
+	% Outline frame
+	\begin{frame}{Outline}
+		\tableofcontents
+	\end{frame}
+	
+	% Lists frame
+	\section{Question}
+	\begin{frame}{Question}
+	Show that if S consists of a countable number of elements $ \zeta  $ and each subset ($ \zeta $) is an event, 
+	then all subsets of S are events.
+		
+	\end{frame}
+	
+	
+	% Blocks frame
+	\section{Solution}
+	\begin{frame}{Solution}
+		Since S contains countable number of elements ,therefore Any subset of S will contain a finite number of elements. Hence, it(each subset) 
+		can be written as a countable union of elementary events or sample points . So it is clear that all subsets of S will be an event.
+\end{frame} 
+
+\end{document}
