@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.4.4)  20 MAY 2022 00:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.4.4)  20 MAY 2022 08:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -989,8 +989,8 @@ Package rerunfilecheck Info: File `assign6.out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  21732 strings out of 478582
- 431828 string characters out of 2844345
- 676703 words of memory out of 3000000
+ 432078 string characters out of 2844345
+ 676705 words of memory out of 3000000
  39450 multiletter control sequences out of 15000+600000
  477966 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1000,7 +1000,7 @@ cmmi10.pfb><C:/Users/prabh/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
 fonts/cm/cmss10.pfb><C:/Users/prabh/AppData/Local/Programs/MiKTeX/fonts/type1/p
 ublic/amsfonts/cm/cmss12.pfb><C:/Users/prabh/AppData/Local/Programs/MiKTeX/font
 s/type1/public/amsfonts/cm/cmss8.pfb>
-Output written on assign6.pdf (4 pages, 76566 bytes).
+Output written on assign6.pdf (4 pages, 76568 bytes).
 PDF statistics:
  170 PDF objects out of 1000 (max. 8388607)
  11 named destinations out of 1000 (max. 500000)
