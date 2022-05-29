@@ -1,0 +1,77 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Welcome to Overleaf --- just edit your LaTeX on the left,
+% and we'll compile it for you on the right. If you open the
+% 'Share' menu, you can invite other users to edit at the same
+% time. See www.overleaf.com/learn for more info. Enjoy!
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+% Inbuilt themes in beamer
+\documentclass{beamer}
+
+% Theme choice:
+\usetheme{CambridgeUS}
+
+% Title page details: 
+\title{Assignment 8} 
+\author{PRABHAV SINGH (BT21BTECH11004)}
+\date{29 May 2022}
+\logo{\large \LaTeX{}}
+
+\begin{document}
+	
+	% Title page frame
+	\begin{frame}
+		\titlepage 
+	\end{frame}
+	
+	% Remove logo from the next slides
+	\logo{}
+	
+	
+	% Outline frame
+	\begin{frame}{Outline}
+		\tableofcontents
+	\end{frame}
+	
+	% Lists frame
+	\section{Question}
+	\begin{frame}{Question}
+	Show that for any random variable $ X $\\
+	$ [E(|X|^{k-1})]^{\frac{1}{k-1}} \leq [E(|X|^{k})]^{\frac{1}{k}}$ \\
+	\end{frame}
+	
+	
+	% Blocks frame
+	\section{Solution}
+		\begin{frame}{Solution}
+	Consider
+	\begin{equation}
+		{\beta}_k =E{|X|^{k}} < \infty
+	\end{equation}
+	and the random variable\\
+	\begin{align}
+		Y&=a|X|^{\frac{k-1}{2}}+|X|^{\frac{k+1}{2}}\\
+		\implies E(Y^{2})&=a^{2}{\beta_{k-1}}+2a{\beta_k}+{\beta_{k+1}} \geq 0
+	\end{align}
+Clearly the discriminant of the quaderatic equation must be negative for this case,
+\begin{align}
+	\implies {\beta_k}^{2} &\leq {\beta_{k-1}}{\beta_{k+1}} \\
+	\implies  {\beta_k}^{2k} &\leq {{\beta_{k-1}}^{k}}{{\beta_{k+1}}^{k}}  
+\end{align}
+\end{frame} 
+
+\begin{frame}
+	This gives $  {\beta_1}^{2} \leq {{\beta_{0}}}{{\beta_{2}}} $ ,  $  {\beta_2}^{4} \leq {{\beta_{1}}^{2}}{{\beta_{3}}^{2}} $ ,  $  {\beta_3}^{6} \leq {{\beta_{2}}^{3}}{{\beta_{4}}^{3}} $ ......... $  {\beta_{n-1}}^{2(n-1)} \leq {{\beta_{n-2}}^{n-1}}{{\beta_{n}}^{n-1}}  $\\
+	
+	Also $  {\beta_{0}}=1 $ and multiplying successively \\
+	\begin{align}
+		\implies   {\beta_1}^{2} \leq{{\beta_{2}}} , {\beta_2}^{3} \leq {{\beta_{3}}^{2}} ,{{\beta_{3}}}^{4} \leq {{\beta_{4}}}^{3} ......... ,\\
+		\implies {{\beta_{k-1}}}^{k} \leq {{\beta_{k}}}^{k-1}\\
+		\implies {{\beta_{k-1}}}^{1/k-1} \leq {{\beta_{k}}}^{1/k}\\
+		\implies \boxed{[E(|X|^{k-1})]^{\frac{1}{k-1}} \leq [E(|X|^{k})]^{\frac{1}{k}}} 
+	\end{align}
+\end{frame}
+\end{document}
