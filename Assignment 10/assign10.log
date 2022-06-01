@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.4.4)  1 JUN 2022 11:06
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.4.4)  1 JUN 2022 14:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -903,11 +903,11 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 250
 (C:\Users\prabh\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Underfull \hbox (badness 10000) in paragraph at lines 249--253
-
+Overfull \hbox (36.22815pt too wide) detected at line 261
+[][][]\OML/cmm/m/it/12 E\OMS/cmsy/m/n/12 f[]g \OT1/cmr/m/n/12 = [] [][] \OML/cm
+m/m/it/12 z[]e[]dz \OT1/cmr/m/n/12 = []
  []
 
-LaTeX Font Info:    Calculating math sizes for size <17> on input line 283.
 [1{C:/Users/prabh/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}
 
 
@@ -918,29 +918,30 @@ Package rerunfilecheck Info: File `assign10.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 24074 strings out of 478582
- 445407 string characters out of 2844345
- 716890 words of memory out of 3000000
- 41844 multiletter control sequences out of 15000+600000
- 505812 words of font info for 113 fonts, out of 8000000 for 9000
+ 24026 strings out of 478582
+ 444689 string characters out of 2844345
+ 705890 words of memory out of 3000000
+ 41808 multiletter control sequences out of 15000+600000
+ 501055 words of font info for 96 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 100i,10n,104p,502b,327s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 100i,6n,104p,502b,327s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {C:/Users/prabh/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:
 /Users/prabh/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex1
 0.pfb><C:/Users/prabh/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
 /cm/cmmi12.pfb><C:/Users/prabh/AppData/Local/Programs/MiKTeX/fonts/type1/public
-/amsfonts/cm/cmmi8.pfb><C:/Users/prabh/AppData/Local/Programs/MiKTeX/fonts/type
-1/public/amsfonts/cm/cmr12.pfb><C:/Users/prabh/AppData/Local/Programs/MiKTeX/fo
-nts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/prabh/AppData/Local/Programs/M
-iKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/prabh/AppData/Local/Pro
-grams/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/prabh/AppData/
-Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/prabh/
-AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><C
-:/Users/prabh/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C
-:/Users/prabh/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb>
-Output written on assign10.pdf (1 page, 120198 bytes).
+/amsfonts/cm/cmmi6.pfb><C:/Users/prabh/AppData/Local/Programs/MiKTeX/fonts/type
+1/public/amsfonts/cm/cmmi8.pfb><C:/Users/prabh/AppData/Local/Programs/MiKTeX/fo
+nts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/prabh/AppData/Local/Programs/M
+iKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/prabh/AppData/Local/Pro
+grams/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/prabh/AppData/Lo
+cal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/prabh/A
+ppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users
+/prabh/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><
+C:/Users/prabh/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><
+C:/Users/prabh/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb>
+Output written on assign10.pdf (1 page, 120265 bytes).
 PDF statistics:
- 84 PDF objects out of 1000 (max. 8388607)
- 13 named destinations out of 1000 (max. 500000)
+ 76 PDF objects out of 1000 (max. 8388607)
+ 3 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

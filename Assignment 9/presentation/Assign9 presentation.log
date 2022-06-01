@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.4.4)  1 JUN 2022 10:33
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.4.4)  1 JUN 2022 14:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -993,7 +993,7 @@ Package rerunfilecheck Info: File `"Assign9 presentation".out' has not changed.
 Here is how much of TeX's memory you used:
  21747 strings out of 478582
  432787 string characters out of 2844345
- 679789 words of memory out of 3000000
+ 679787 words of memory out of 3000000
  39462 multiletter control sequences out of 15000+600000
  478260 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1011,7 +1011,7 @@ ers/prabh/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.p
 fb><C:/Users/prabh/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm
 /cmsy8.pfb><C:/Users/prabh/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
 fonts/symbols/msam10.pfb>
-Output written on "Assign9 presentation.pdf" (5 pages, 151178 bytes).
+Output written on "Assign9 presentation.pdf" (5 pages, 151585 bytes).
 PDF statistics:
  233 PDF objects out of 1000 (max. 8388607)
  13 named destinations out of 1000 (max. 500000)

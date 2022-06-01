@@ -247,44 +247,21 @@
 
 %template ends here
 \noindent \textbf{Question :}
-Suppose the Conditional distribution of $ x $ given $ y = n $ is binomial with parameters n and 
-$ p_{1} $. Further, $  Y $ is a binomial random variable with parameters $  M $ and $ p_{2} $. Show that the 
-distribution of $  x  $ is also binomial. Find its parameters.  \\
+Therandom variable $ X  $ has a Student $ t $ distribution $  t(n) $. Show that \\
+$E\{ X^{2} \}=\dfrac{n}{n-2}  $
 
 \medskip 
 
 
 \textbf{Solution :}\\
-Using the symbols in their Standard  definition and given as in question ,
+We know that $  X^{2}=\dfrac{ny^{2}}{z} $, where $ y $ is $  N(0,1)  $ and $  z $ is $ X^{2}(n) $.\\ Hence $E\{ y^{2} \}=1.  $\\
+Also 
 \begin{equation}
-	P(X=k|Y=n) =\binom{n}{k}{p_{1}}^{k}{q_{1}}^{n-k}; k=1,2,3,....n  \\
-\end{equation}
+	E\{\frac{1}{Z}\}=\dfrac{1}{2^{n/2}{\Gamma}(n/2)}\int_{0}^{{\infty}}z^{\frac{n}{z-2}}e^{\frac{-z}{2}}dz=\dfrac{2^{(\frac{n}{2}-1)}{\Gamma}(n/2-1)}{2^{\frac{n}{2}}{\Gamma}(n/2-1)}
+\end{equation}  
+From this and independence of $  y $ and $ z $ ,it follows that
 
-
-\begin{align}
-E(e^{j{\omega}k}|Y=n)&=\sum_{k=0}^{n}e^{j{\omega}k}P(X=k|Y=n)\\
-&={(p_{1}e^{j{\omega}}+q_{1})}^{n}
-\end{align}
-Also we know that ,
-\begin{align}
-{\phi}_{x}({\omega})&=E[e^{j{\omega}X}]\\
-&=E(E[e^{j{\omega}x}|Y=n])\\
-&=\sum_{n=0}^{M}E(E[e^{j{\omega}x}|Y=n])P(Y=n)\\
-&=\sum_{n=0}^{{\infty}}{(p_{1}e^{j{\omega}}+q_{1})}^{n}\binom{M}{n}{p_{2}}^{n}{q_{2}}^{M-n}\\
-&=\sum_{n=0}^{M}\binom{M}{n}{(p_{2}(p_{1}e^{j{\omega}}+q_{1}))}^{n}{q_{2}}^{M-n}\\
-&= {(p_{1}p_{2}e^{j{\omega}}+q_{1}p_{2}+q_{2})}^{M}
-\end{align}
-But 
-\begin{align}
- (1-p_{1}p_{2} )&= 1- (1-q_{1})(1-q_{2})\\
- &= q_{1}p_{2}+q_{2}
- \end{align}
-Hence 
-{\Large \textbf{$ {\phi}_{{\omega}}={(pe^{j{\omega}}+q)}^{m} $}} where $ p=p_{1}p_{2} $ \\
-Thus $ \boxed{X \backsim Binomial(M,p_{1}p_{2})} $
-
-
-
+$ E\{X^{2} \} = n.E\{y^{2}\}.E\{\frac{1}{z}\} = \dfrac{n}{n-2} $
 
 
 \end{document}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.4.4)  1 JUN 2022 11:06
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.4.4)  1 JUN 2022 14:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -973,8 +973,6 @@ thkerncmss.
 
 ] [4
 
-] [5
-
 ]
 \tf@nav=\write6
 \openout6 = `"Assign10 presentation.nav"'.
@@ -991,29 +989,33 @@ Package rerunfilecheck Info: File `"Assign10 presentation".out' has not changed
 (rerunfilecheck)             Checksum: 57A7811BCFD185EEF89731629BC63BEE;166.
  ) 
 Here is how much of TeX's memory you used:
- 21747 strings out of 478582
- 432825 string characters out of 2844345
- 679807 words of memory out of 3000000
- 39462 multiletter control sequences out of 15000+600000
- 478260 words of font info for 60 fonts, out of 8000000 for 9000
+ 21744 strings out of 478582
+ 432792 string characters out of 2844345
+ 677807 words of memory out of 3000000
+ 39461 multiletter control sequences out of 15000+600000
+ 477966 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,15n,122p,429b,600s stack positions out of 10000i,1000n,20000p,200000b,80000s
-<C:/Users/prabh/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
-cmex10.pfb><C:/Users/prabh/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
-fonts/cm/cmmi10.pfb><C:/Users/prabh/AppData/Local/Programs/MiKTeX/fonts/type1/p
-ublic/amsfonts/cm/cmmi8.pfb><C:/Users/prabh/AppData/Local/Programs/MiKTeX/fonts
-/type1/public/amsfonts/cm/cmss10.pfb><C:/Users/prabh/AppData/Local/Programs/MiK
-TeX/fonts/type1/public/amsfonts/cm/cmss12.pfb><C:/Users/prabh/AppData/Local/Pro
-grams/MiKTeX/fonts/type1/public/amsfonts/cm/cmss8.pfb><C:/Users/prabh/AppData/L
-ocal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssi10.pfb><C:/Users/prabh
-/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssi8.pfb><C:/Us
-ers/prabh/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.p
-fb><C:/Users/prabh/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm
-/cmsy8.pfb><C:/Users/prabh/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
-fonts/symbols/msam10.pfb>
-Output written on "Assign10 presentation.pdf" (5 pages, 151143 bytes).
+
+pdfTeX warning (dest): name{Navigation5} has been referenced but does not exist
+, replaced by a fixed one
+
+<C:/Users/prabh/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cm
+ex10.pfb><C:/Users/prabh/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfo
+nts/cm/cmmi10.pfb><C:/Users/prabh/AppData/Local/Programs/MiKTeX/fonts/type1/pub
+lic/amsfonts/cm/cmmi8.pfb><C:/Users/prabh/AppData/Local/Programs/MiKTeX/fonts/t
+ype1/public/amsfonts/cm/cmss10.pfb><C:/Users/prabh/AppData/Local/Programs/MiKTe
+X/fonts/type1/public/amsfonts/cm/cmss12.pfb><C:/Users/prabh/AppData/Local/Progr
+ams/MiKTeX/fonts/type1/public/amsfonts/cm/cmss8.pfb><C:/Users/prabh/AppData/Loc
+al/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssi10.pfb><C:/Users/prabh/A
+ppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssi8.pfb><C:/User
+s/prabh/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb
+><C:/Users/prabh/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/c
+msy6.pfb><C:/Users/prabh/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfo
+nts/cm/cmsy8.pfb>
+Output written on "Assign10 presentation.pdf" (4 pages, 139313 bytes).
 PDF statistics:
- 233 PDF objects out of 1000 (max. 8388607)
- 13 named destinations out of 1000 (max. 500000)
+ 206 PDF objects out of 1000 (max. 8388607)
+ 12 named destinations out of 1000 (max. 500000)
  101 words of extra memory for PDF output out of 10000 (max. 10000000)
 
