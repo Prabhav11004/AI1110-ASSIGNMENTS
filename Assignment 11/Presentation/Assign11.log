@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.4.4)  3 JUN 2022 09:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.4.4)  3 JUN 2022 13:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -990,10 +990,10 @@ Package rerunfilecheck Info: File `Assign11.out' has not changed.
 (rerunfilecheck)             Checksum: 57A7811BCFD185EEF89731629BC63BEE;166.
  ) 
 Here is how much of TeX's memory you used:
- 21739 strings out of 478582
- 432268 string characters out of 2844345
+ 21741 strings out of 478582
+ 432300 string characters out of 2844345
  680725 words of memory out of 3000000
- 39455 multiletter control sequences out of 15000+600000
+ 39457 multiletter control sequences out of 15000+600000
  477966 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,15n,122p,414b,600s stack positions out of 10000i,1000n,20000p,200000b,80000s
@@ -1009,7 +1009,7 @@ ocal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssi10.pfb><C:/Users/prabh
 ers/prabh/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.p
 fb><C:/Users/prabh/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm
 /cmsy8.pfb>
-Output written on Assign11.pdf (5 pages, 137964 bytes).
+Output written on Assign11.pdf (5 pages, 137961 bytes).
 PDF statistics:
  228 PDF objects out of 1000 (max. 8388607)
  13 named destinations out of 1000 (max. 500000)
