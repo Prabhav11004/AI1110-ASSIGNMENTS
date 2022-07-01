@@ -1,0 +1,74 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Welcome to Overleaf --- just edit your LaTeX on the left,
+% and we'll compile it for you on the right. If you open the
+% 'Share' menu, you can invite other users to edit at the same
+% time. See www.overleaf.com/learn for more info. Enjoy!
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+% Inbuilt themes in beamer
+\documentclass{beamer}
+
+% Theme choice:
+\usetheme{CambridgeUS}
+
+% Title page details: 
+\title{Assignment 13} 
+\author{PRABHAV SINGH (BT21BTECH11004)}
+\date{\today}
+\logo{\large \LaTeX{}}
+
+\begin{document}
+	
+	% Title page frame
+	\begin{frame}
+		\titlepage 
+	\end{frame}
+	
+	% Remove logo from the next slides
+	\logo{}
+	
+	
+	% Outline frame
+	\begin{frame}{Outline}
+		\tableofcontents
+	\end{frame}
+	
+	% Lists frame
+	\section{Question}
+	\begin{frame}{Question}
+	Show that if $ {\phi} $ is a random variable with $  \phi(\lambda)=E\{e^{f{\lambda}{\phi}}\} $ and $  {\phi}(1) = {\phi}(2) = 0 $, then the 
+	process $ x(t) = \cos(wt+\phi ) $ is WSS. Find $ E\{x(t)\} $ and $ R_{x}({\tau}) $ if $\phi$ is uniform in the interval $ (-\pi,\pi) $
+	\end{frame}
+	
+	
+	% Blocks frame
+	\section{Solution}
+	\begin{frame}{Solution}
+		From \begin{equation}
+			{\phi}(1) = {\phi}(2) = 0
+		\end{equation}   we can conclude that \\
+		\begin{align}
+			E\{\cos{\phi}\}&=E\{\sin{\phi}\}=E\{\cos2{\phi}\}=E\{\sin2{\phi}\}=0\\
+			\implies	 E\{x(t)\}&=\cos(wt)E\{\cos{\phi}\}-\sin(wt)E\{\sin{\phi}\}
+		\end{align}
+		And using the result \\
+		\begin{equation}
+			2 \cos [\omega(t +\tau) + \phi] \cos ({\omega}t + \phi) = \cos({\omega}{\tau}+\phi)+\cos(2{\omega}t +{\omega}{\tau} + 2{\phi}) 
+		\end{equation}
+
+\end{frame}
+
+\begin{frame}
+	\begin{equation}
+		2R_{x}({\tau})=\cos({\omega}{\tau})
+	\end{equation}
+	If $ {\phi} $ is uniform in  $ (-\pi,\pi) $ , then\\
+	\begin{equation}
+		\phi(\lambda)=\dfrac{\sin({\pi}{\omega})}{{\pi}{\omega}}~ and~ {\phi}(1) = {\phi}(2) = 0
+	\end{equation}
+
+\end{frame}
+\end{document}
