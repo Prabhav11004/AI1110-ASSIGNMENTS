@@ -21,7 +21,7 @@ double **createMat(int m,int n)
  double **a;
  
  //Allocate memory to the pointer
- a = (double **)malloc(m * sizeof( *a));
+a = (double **)malloc(m * sizeof( *a));
     for (i=0; i<m; i++)
          a[i] = (double *)malloc(n * sizeof( *a[i]));
 
@@ -199,6 +199,7 @@ fp = fopen(str,"w");
 for (i = 0; i < len; i++)
 {
 fprintf(fp,"%lf\n",(double)rand()/RAND_MAX);
+
 }
 fclose(fp);
 
@@ -243,6 +244,7 @@ temp = 0;
 for (j = 0; j < 12; j++)
 {
 temp += (double)rand()/RAND_MAX;
+
 }
 temp-=6;
 fprintf(fp,"%lf\n",temp);
@@ -251,3 +253,41 @@ fclose(fp);
 
 }
 //End function for generating Gaussian random numbers
+
+//to find variance
+double variance(char *str)
+{
+    FILE*ptr=fopen(str,"r");
+    double x;int i=0;
+    double temp=0;
+    while(fscanf(ptr,"%lf",&x) !=-1)
+    {
+    i++;
+    temp+=x*x;
+
+}
+
+return (temp)/(i-1) - mean(str)*mean(str);
+}
+
+void exponential(char*str1,char*str,int len)
+{
+ FILE*ptr=fopen(str1,"w");
+ FILE*fp=fopen(str,"r");
+ 
+ double x;double temp;
+ 
+ while(fscanf(fp,"%lf",&x)!=-1)
+ {
+ 
+ temp=-2*log(1-x);
+ 
+ fprintf(ptr,"%lf\n",temp);
+ 
+ }
+ 
+ 
+ 
+ 
+ 
+}
