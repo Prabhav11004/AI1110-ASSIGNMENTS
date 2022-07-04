@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.4.4)  4 JUL 2022 19:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.4.4)  5 JUL 2022 00:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1129,7 +1129,7 @@ Package: hhline 2020/01/04 v2.04 Table rule package (DPC)
 Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
 LaTeX Font Info:    Trying to load font information for OT1+txr on input line 1
-19.
+21.
 
 (C:\Users\prabh\AppData\Local\Programs\MiKTeX\tex/latex/txfonts\ot1txr.fd
 File: ot1txr.fd 2000/12/15 v3.1
@@ -1137,103 +1137,103 @@ File: ot1txr.fd 2000/12/15 v3.1
 (main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 119.
+LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 121.
 LaTeX Font Info:    Trying to load font information for OML+txmi on input line 
-119.
+121.
 
 (C:\Users\prabh\AppData\Local\Programs\MiKTeX\tex/latex/txfonts\omltxmi.fd
 File: omltxmi.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 119.
-LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 119.
+LaTeX Font Info:    ... okay on input line 121.
+LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 121.
 LaTeX Font Info:    Trying to load font information for OMS+txsy on input line 
-119.
+121.
 
 (C:\Users\prabh\AppData\Local\Programs\MiKTeX\tex/latex/txfonts\omstxsy.fd
 File: omstxsy.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 119.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 119.
-LaTeX Font Info:    ... okay on input line 119.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 119.
-LaTeX Font Info:    ... okay on input line 119.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 119.
-LaTeX Font Info:    ... okay on input line 119.
-LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 119.
+LaTeX Font Info:    ... okay on input line 121.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 121.
+LaTeX Font Info:    ... okay on input line 121.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 121.
+LaTeX Font Info:    ... okay on input line 121.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 121.
+LaTeX Font Info:    ... okay on input line 121.
+LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 121.
 LaTeX Font Info:    Trying to load font information for OMX+txex on input line 
-119.
+121.
 
 (C:\Users\prabh\AppData\Local\Programs\MiKTeX\tex/latex/txfonts\omxtxex.fd
 File: omxtxex.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 119.
-LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 119.
+LaTeX Font Info:    ... okay on input line 121.
+LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 121.
 LaTeX Font Info:    Trying to load font information for U+txexa on input line 1
-19.
+21.
 
 (C:\Users\prabh\AppData\Local\Programs\MiKTeX\tex/latex/txfonts\utxexa.fd
 File: utxexa.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 119.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 119.
-LaTeX Font Info:    ... okay on input line 119.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 119.
-LaTeX Font Info:    ... okay on input line 119.
+LaTeX Font Info:    ... okay on input line 121.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 121.
+LaTeX Font Info:    ... okay on input line 121.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 121.
+LaTeX Font Info:    ... okay on input line 121.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <6> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 119.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 121.
 LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <6> not available
-(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 119.
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 121.
 
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <8> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 119.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 121.
 LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <8> not available
-(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 119.
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 121.
 
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <9> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 119.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 121.
 LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <9> not available
-(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 119.
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 121.
 
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <10> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 119.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 121.
 LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <10> not available
-(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 119.
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 121.
 
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <12> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 119.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 121.
 LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <12> not available
-(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 119.
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 121.
 
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <14> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 119.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 121.
 LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <14> not available
-(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 119.
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 121.
 
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <20> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 119.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 121.
 LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <20> not available
-(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 119.
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 121.
 
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <22> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 119.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 121.
 LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <22> not available
-(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 119.
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 121.
 
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <24> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 119.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 121.
 LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <24> not available
-(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 119.
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 121.
 
 
 -- Lines per column: 50 (exact).
-LaTeX Info: Redefining \celsius on input line 119.
-Package gensymb Info: Faking symbols for \degree and \celsius on input line 119
+LaTeX Info: Redefining \celsius on input line 121.
+Package gensymb Info: Faking symbols for \degree and \celsius on input line 121
 .
 
 Package gensymb Warning: Not defining \perthousand.
 
-LaTeX Info: Redefining \ohm on input line 119.
-Package gensymb Info: Using \Omega for \ohm on input line 119.
+LaTeX Info: Redefining \ohm on input line 121.
+Package gensymb Info: Using \Omega for \ohm on input line 121.
 
 Package gensymb Warning: Not defining \micro.
 
@@ -1272,7 +1272,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 fg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring OFF on input line 119.
+Package hyperref Info: Link coloring OFF on input line 121.
 
 (C:\Users\prabh\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
@@ -1286,9 +1286,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count355
 )
-LaTeX Info: Redefining \ref on input line 119.
-LaTeX Info: Redefining \pageref on input line 119.
-LaTeX Info: Redefining \nameref on input line 119.
+LaTeX Info: Redefining \ref on input line 121.
+LaTeX Info: Redefining \pageref on input line 121.
+LaTeX Info: Redefining \nameref on input line 121.
  (main.out) (main.out)
 \@outlinefile=\write5
 \openout5 = `main.out'.
@@ -1305,37 +1305,37 @@ LaTeX Info: Redefining \nameref on input line 119.
 \openout6 = `main.toc'.
 
 LaTeX Font Info:    Trying to load font information for U+txsya on input line 2
-46.
+48.
 
 (C:\Users\prabh\AppData\Local\Programs\MiKTeX\tex/latex/txfonts\utxsya.fd
 File: utxsya.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Trying to load font information for U+txsyb on input line 2
-46.
+48.
 
 (C:\Users\prabh\AppData\Local\Programs\MiKTeX\tex/latex/txfonts\utxsyb.fd
 File: utxsyb.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Trying to load font information for U+rsfs on input line 24
-6.
+8.
 
 (C:\Users\prabh\AppData\Local\Programs\MiKTeX\tex/latex/jknappen\ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
 LaTeX Font Info:    Trying to load font information for U+txmia on input line 2
-46.
+48.
 
 (C:\Users\prabh\AppData\Local\Programs\MiKTeX\tex/latex/txfonts\utxmia.fd
 File: utxmia.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Trying to load font information for U+txsyc on input line 2
-46.
+48.
 
 (C:\Users\prabh\AppData\Local\Programs\MiKTeX\tex/latex/txfonts\utxsyc.fd
 File: utxsyc.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Trying to load font information for TS1+txr on input line 2
-53.
+55.
 
 (C:\Users\prabh\AppData\Local\Programs\MiKTeX\tex/latex/txfonts\ts1txr.fd
 File: ts1txr.fd 2000/12/15 v3.1
@@ -1343,7 +1343,7 @@ File: ts1txr.fd 2000/12/15 v3.1
 <uni_cdf.png, id=22, 462.528pt x 346.896pt>
 File: uni_cdf.png Graphic file (type png)
 <use uni_cdf.png>
-Package pdftex.def Info: uni_cdf.png  used on input line 279.
+Package pdftex.def Info: uni_cdf.png  used on input line 281.
 (pdftex.def)             Requested size: 252.0pt x 189.00427pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1352,38 +1352,48 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
  <./uni_cdf.png>]
-<cdf.png, id=67, 462.528pt x 346.896pt>
-File: cdf.png Graphic file (type png)
-<use cdf.png>
-Package pdftex.def Info: cdf.png  used on input line 399.
+<gau_cdf.png, id=67, 462.528pt x 346.896pt>
+File: gau_cdf.png Graphic file (type png)
+<use gau_cdf.png>
+Package pdftex.def Info: gau_cdf.png  used on input line 401.
 (pdftex.def)             Requested size: 252.0pt x 189.00427pt.
 
-[2 <./cdf.png>]
-<pdf.png, id=103, 462.528pt x 346.896pt>
-File: pdf.png Graphic file (type png)
-<use pdf.png>
-Package pdftex.def Info: pdf.png  used on input line 445.
+[2 <./gau_cdf.png>]
+<gauss_pdf.png, id=103, 462.528pt x 346.896pt>
+File: gauss_pdf.png Graphic file (type png)
+<use gauss_pdf.png>
+Package pdftex.def Info: gauss_pdf.png  used on input line 447.
 (pdftex.def)             Requested size: 252.0pt x 189.00427pt.
- [3 <./pdf.png>]
-<exp_cdf.png, id=147, 462.528pt x 346.896pt>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [3 <./gauss_pdf.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+<exp_cdf.png, id=148, 462.528pt x 346.896pt>
 File: exp_cdf.png Graphic file (type png)
 <use exp_cdf.png>
-Package pdftex.def Info: exp_cdf.png  used on input line 522.
+Package pdftex.def Info: exp_cdf.png  used on input line 566.
 (pdftex.def)             Requested size: 252.0pt x 189.00427pt.
- [4
+
+Overfull \hbox (10.3514pt too wide) detected at line 591
+[]
+ []
+
+[4] [5
 
  <./exp_cdf.png>] (main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 52185E15DC6BD70239C860CE9E02C002;470.
  ) 
 Here is how much of TeX's memory you used:
- 29842 strings out of 478582
- 578424 string characters out of 2844345
- 953330 words of memory out of 3000000
- 47375 multiletter control sequences out of 15000+600000
- 535163 words of font info for 162 fonts, out of 8000000 for 9000
+ 29854 strings out of 478582
+ 578623 string characters out of 2844345
+ 953215 words of memory out of 3000000
+ 47363 multiletter control sequences out of 15000+600000
+ 531690 words of font info for 151 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 100i,16n,104p,408b,1906s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 100i,18n,104p,408b,1906s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {C:/Users/prabh/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:
 /Users/prabh/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/rtcxr.pfb
 ><C:/Users/prabh/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/rtxmi
@@ -1392,14 +1402,15 @@ txr.pfb><C:/Users/prabh/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfont
 s/rtxsc.pfb><C:/Users/prabh/AppData/Local/Programs/MiKTeX/fonts/type1/public/tx
 fonts/txex.pfb><C:/Users/prabh/AppData/Local/Programs/MiKTeX/fonts/type1/public
 /txfonts/txsy.pfb><C:/Users/prabh/AppData/Local/Programs/MiKTeX/fonts/type1/pub
-lic/txfonts/txsyb.pfb><C:/Users/prabh/AppData/Local/Programs/MiKTeX/fonts/type1
-/urw/times/utmb8a.pfb><C:/Users/prabh/AppData/Local/Programs/MiKTeX/fonts/type1
-/urw/times/utmbi8a.pfb><C:/Users/prabh/AppData/Local/Programs/MiKTeX/fonts/type
-1/urw/times/utmr8a.pfb><C:/Users/prabh/AppData/Local/Programs/MiKTeX/fonts/type
-1/urw/times/utmri8a.pfb>
-Output written on main.pdf (4 pages, 185777 bytes).
+lic/txfonts/txsya.pfb><C:/Users/prabh/AppData/Local/Programs/MiKTeX/fonts/type1
+/public/txfonts/txsyb.pfb><C:/Users/prabh/AppData/Local/Programs/MiKTeX/fonts/t
+ype1/urw/times/utmb8a.pfb><C:/Users/prabh/AppData/Local/Programs/MiKTeX/fonts/t
+ype1/urw/times/utmbi8a.pfb><C:/Users/prabh/AppData/Local/Programs/MiKTeX/fonts/
+type1/urw/times/utmr8a.pfb><C:/Users/prabh/AppData/Local/Programs/MiKTeX/fonts/
+type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (5 pages, 193469 bytes).
 PDF statistics:
- 236 PDF objects out of 1000 (max. 8388607)
- 107 named destinations out of 1000 (max. 500000)
+ 272 PDF objects out of 1000 (max. 8388607)
+ 131 named destinations out of 1000 (max. 500000)
  57 words of extra memory for PDF output out of 10000 (max. 10000000)
 

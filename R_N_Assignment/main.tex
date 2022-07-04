@@ -20,7 +20,9 @@
 \usepackage{tikz}
 \usepackage{graphicx}
 \usetikzlibrary{shapes,arrows}
-
+\providecommand{\mean}[1]{E\left[ #1 \right]}
+\providecommand{\var}[1]{\mathrm{Var}\left[ #1 \right]}
+\providecommand{\der}[1]{\mathrm{d} #1}
 %\usepackage{graphicx}
 %\usepackage{amssymb}
 %\usepackage{relsize}
@@ -396,7 +398,7 @@ Load gau.dat in python and plot the empirical CDF of $X$ using the samples in ga
 \solution The CDF of $X$ is plotted in Fig. \ref{fig:gauss_cdf}
 \begin{figure}
 \centering
-\includegraphics[width=\columnwidth]{cdf.png}
+\includegraphics[width=\columnwidth]{gau_cdf.png}
 \caption{The CDF of $X$}
 \label{fig:gauss_cdf}
 \end{figure}
@@ -423,7 +425,7 @@ What properties does the PDF have?
 
 \solution The PDF of $X$ is plotted in Fig. \ref{fig:gauss_pdf} using the code below
 \begin{lstlisting}
-$ wget https://raw.githubusercontent.com/goats-9/ai1110-assignments/master/manual/codes/pdf_plot.py
+$ wget https://github.com/Prabhav11004/AI1110-ASSIGNMENTS/blob/main/R_N_Assignment/Codes/pdf_plot.py
 \end{lstlisting}
 The figure is generated using
 \begin{lstlisting}
@@ -442,7 +444,7 @@ The properties of a PDF $p_X(x)$ are as follows:
 		\end{enumerate}
 \begin{figure}
 \centering
-\includegraphics[width=\columnwidth]{pdf.png}
+\includegraphics[width=\columnwidth]{gauss_pdf.png}
 \caption{The PDF of $X$}
 \label{fig:gauss_pdf}
 \end{figure}
@@ -454,11 +456,12 @@ The mean and variance have been calculated using \eqref{eq:mean-form} and \eqref
 
 \noindent The C program can be downloaded using
 \begin{lstlisting}
-$ wget https://raw.githubusercontent.com/goats-9/ai1110-assignments/master/manual/codes/mean_var_gau.c
+$ wget https://github.com/Prabhav11004/AI1110-ASSIGNMENTS/blob/main/R_N_Assignment/Codes/q2.4_mean_var.c
+$ wget https://github.com/Prabhav11004/AI1110-ASSIGNMENTS/blob/main/R_N_Assignment/Codes/mean_var.h
 \end{lstlisting}
 and compiled and executed with the following commands
 \begin{lstlisting}
-$ gcc mean_var_gau.c -lm -Wall -g
+$ gcc q2.4_mean_var.c -lm 
 $ ./a.out
 \end{lstlisting}
 The calculated mean is 0.000326 and the calculated variance is 1.000906.
@@ -470,28 +473,69 @@ p_{X}(x) = \frac{1}{\sqrt{2\pi}}\exp\brak{-\frac{x^2}{2}}, -\infty < x < \infty,
 repeat the above exercise theoretically.
 
 \solution
-The mean is given by
-		\begin{align}
-			E\sbrak{X} = \int_{-\infty}^{\infty}x\frac{1}{\sqrt{2\pi}}\exp{\left(-\frac{x^2}{2}\right)} = 0
-			\label{eq:gau-mean}
-		\end{align}
-as the integrand is odd. This checks out with the empirical mean of 0.000326. The variance is given by
-		\begin{align}
-			\text{var}\sbrak{X} &= E\sbrak{X^2} - \left(E\sbrak{X}\right)^2 \\
-			&= \int_{-\infty}^{\infty}x^2\frac{1}{\sqrt{2\pi}}\exp{\left(-\frac{x^2}{2}\right)}dx \label{eq:int} \\
-			&= \int_{0}^{\infty}\frac{2}{\sqrt{2\pi}}\sqrt{2t}e^{-t}dt \\
-			&= \frac{2}{\sqrt{\pi}}\Gamma\left(\frac{3}{2}\right) \\
-			&= \frac{1}{\sqrt{\pi}}\Gamma\left(\frac{1}{2}\right) = 1
-			\label{eq:gau-var}
-		\end{align}
-where we have used $t = \frac{x^2}{2}$ and so $dt = xdx$. We have also used the gamma function given as
+The mean of $X$ is given by
 \begin{align}
-	\Gamma(n) = \int_{-\infty}^{\infty}x^{n - 1}e^{-x}dx \\
-	\Gamma(n) = (n - 1)\Gamma(n - 1)\ \text{for $n > 1$}
+	\mean{X} &= \int_{-\infty}^{\infty} x p_{X}(x) \mathrm{d}x \\
+	&= \int_{-\infty}^{\infty} \frac{x}{\sqrt{2\pi}}\exp\brak{-\frac{x^2}{2}} \mathrm{d}x 
 \end{align}
-and the fact that $\Gamma(1/2) = \sqrt{\pi}$.
-This agrees with the empirical variance of 1.000906.
-%
+Now, let
+\begin{align} 
+	g(x) &= \dfrac{x}{\sqrt{2\pi}}\exp\brak{-\frac{x^2}{2}} \\
+	\implies g(-x) &= \dfrac{-x}{\sqrt{2\pi}}\exp\brak{-\frac{(-x)^2}{2}} \\
+	&= - \dfrac{x}{\sqrt{2\pi}}\exp\brak{-\frac{x^2}{2}} \\
+	&= - g(x)
+\end{align}
+Thus, $g(x)$ is an odd function 
+\begin{align}
+	\therefore \mean{X} &= \int_{-\infty}^{\infty} g(x) \mathrm{d}x = 0
+\end{align}
+
+Now, 
+\begin{align}
+	\mean{X^2} &= \int_{-\infty}^{\infty} x^2 p_{X}(x) \mathrm{d}x \\
+	&= \int_{-\infty}^{\infty} \frac{x^2}{\sqrt{2\pi}}\exp\brak{-\frac{x^2}{2}} \mathrm{d}x \\
+	&= 2 \int_{0}^{\infty} \frac{x^2}{\sqrt{2\pi}}\exp\brak{-\frac{x^2}{2}} \mathrm{d}x
+\end{align}
+since $\frac{x^2}{\sqrt{2\pi}}\exp\brak{-\frac{x^2}{2}}$ is an even function
+
+Using integration by parts,
+\begin{align}
+	\mean{X^2} = \sqrt{\frac{2}{\pi}}  \int_{0}^{\infty} x \cdot x \exp\brak{-\frac{x^2}{2}} \der{x} 
+\end{align}
+\begin{multline}
+	= \sqrt{\frac{2}{\pi}} \brak{\left. x \int x \exp\brak{-\frac{x^2}{2}} \der{x}}\right|_0^{\infty} \\- \sqrt{\frac{2}{\pi}}  \int_{0}^{\infty} 1 \cdot \int x \exp\brak{-\frac{x^2}{2}} \der{x}
+\end{multline}
+
+Substitute $t = \frac{x^2}{2} \implies \der{t} = x\der{x}$
+\begin{align}
+	\int x \exp\brak{-\frac{x^2}{2}} \der{x} &= \int \exp(-t) \der{t} \\
+	&= - \exp(-t) \\
+	&= - \exp\brak{-\frac{x^2}{2}}
+\end{align}
+Now,
+\begin{align}
+	\left. -x \exp\brak{-\frac{x^2}{2}} \right|_0^{\infty} = 0 - 0 = 0 \\
+	\because \lim_{x\to\infty} x \exp\brak{-\frac{x^2}{2}} = \lim_{x\to\infty} \frac{x}{\exp\brak{\frac{x^2}{2}}} =0
+\end{align}
+as exponential function grows much faster than a polynomial function
+
+Also, 
+\begin{align}
+	&\int_0^{\infty} - \exp\brak{-\frac{x^2}{2}} \der{x} \\
+	\xleftrightarrow{x = t\sqrt{2}} &\int_0^{\infty} -\exp(-t^2) \der{t}\sqrt{2} \\
+	&= -{\sqrt{2}} \int_0^{\infty} \exp(-t^2) \der{t} \\
+	&= -{\sqrt{2}} \frac{\sqrt{\pi}}{2} \\
+	&= - \sqrt{\frac{\pi}{2}}
+\end{align}
+
+Therefore,
+\begin{align}
+	\mean{X^2} &= 0 - \sqrt{\frac{2}{\pi}} \brak{- \sqrt{\frac{\pi}{2}}} \\
+	&= 1 \\
+	\therefore \var{X} &= \mean{X^2} - \brak{\mean{X}}^2 \\
+	&= 1 - 0 \\
+	&= 1
+\end{align}
 \end{enumerate}
 \section{From Uniform to Other}
 \begin{enumerate}[label=\thesection.\arabic*
@@ -527,24 +571,34 @@ and the CDF is plotted in Figure \eqref{fig:exp_cdf}.
 \item Find a theoretical expression for $F_V(x)$.
 
 \solution
-Note that the function 
-		\begin{align}
-			v = f(u) = -2\ln{(1 - u)}
-		\end{align}
-is monotonically increasing in [0, 1] and $v \in \mathbb{R^+}$. Hence, it is invertible and the inverse function is given by
-		\begin{align}
-			u = f^{-1}(v) = 1 - \exp{\left(-\frac{v}{2}\right)}
-		\end{align}
-		Therefore, from the monotonicity of $v$, and using \eqref{eq:cdf-ans},
-		\begin{align}
-			F_V(v) &= F_U\left(1 - \exp{\left(-\frac{v}{2}\right)}\right) \\
-			\implies F_V(v) &= 
-			\begin{cases}
-				0 & v < 0 \\
-				1 - \exp{\left(-\frac{v}{2}\right)} & v \geq 0
-			\end{cases}
-			\label{eq:f-v}
-		\end{align}
+ We have:
+
+\begin{align}
+	F_V(x) &= \pr{V \leq x} \\
+	&= \pr{-2\ln(1-U) \leq x} \\
+	&= \pr{1-U \geq	\exp{\left(-\frac{x}{2}\right)}} \\
+	&= \pr{U \leq 1 - \exp{\left(-\frac{x}{2}\right)}} \\
+	&= F_U\left(1 - \exp{\left(-\frac{x}{2}\right)}\right) 
+\end{align}
+Therefore,
+\begin{align}
+	F_V(x) =
+	\begin{cases}
+		0, & 1 - \exp{\left(-\frac{x}{2}\right)} \in (-\infty,0) \\
+		1 - \exp{\left(-\frac{x}{2}\right)}, & 1 - \exp{\left(-\frac{x}{2}\right)} \in (0,1) \\
+		1, & 1 - \exp{\left(-\frac{x}{2}\right)} \in (1, \infty)
+	\end{cases}
+\end{align}
+
+From this we get:
+
+\begin{align}
+	F_V(x) =
+	\begin{cases}
+		0, & x \in (-\infty,0) \\
+		1 - \exp{\left(-\frac{x}{2}\right)}, & x \in (0,\infty) 
+	\end{cases}
+\end{align}
 %
 %\item
 %Generate the Rayleigh distribution from Uniform. Verify your result through graphical plots.

@@ -291,3 +291,23 @@ void exponential(char*str1,char*str,int len)
  
  
 }
+void logarithmic(char *
+str){
+int i=0,c;
+FILE *
+fp, *
+fp2;
+double x, temp=0.0;
+fp = fopen("uni.dat","r");
+fp2 = fopen(str, "w");
+//get numbers from file
+while(fscanf(fp,"%lf",&x)!=EOF)
+{
+temp = -2*
+log(1-x);
+fprintf(fp2,"%lf\n",temp);
+}
+fclose(fp);
+fclose(fp2);
+return ;
+}
