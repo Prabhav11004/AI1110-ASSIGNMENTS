@@ -10,6 +10,7 @@ double **matmul(double **a, double **b, int m, int n, int p);
 double **transpose(double **a,  int m, int n);
 void uniform(char *str, int len);
 void gaussian(char *str, int len);
+void V_dist(char *str, int len);
 double mean(char *str);
 //End function declaration
 
@@ -269,45 +270,18 @@ double variance(char *str)
 
 return (temp)/(i-1) - mean(str)*mean(str);
 }
+//Defining the function for generating V distribution random numbers
+void V_dist(char *str, int len) {
+int i;
+double term;
+FILE *fp;
 
-void exponential(char*str1,char*str,int len)
+fp = fopen(str,"w");
+//Generate numbers
+for (i = 0; i < len; i++)
 {
- FILE*ptr=fopen(str1,"w");
- FILE*fp=fopen(str,"r");
- 
- double x;double temp;
- 
- while(fscanf(fp,"%lf",&x)!=-1)
- {
- 
- temp=-2*log(1-x);
- 
- fprintf(ptr,"%lf\n",temp);
- 
- }
- 
- 
- 
- 
- 
-}
-void logarithmic(char *
-str){
-int i=0,c;
-FILE *
-fp, *
-fp2;
-double x, temp=0.0;
-fp = fopen("uni.dat","r");
-fp2 = fopen(str, "w");
-//get numbers from file
-while(fscanf(fp,"%lf",&x)!=EOF)
-{
-temp = -2*
-log(1-x);
-fprintf(fp2,"%lf\n",temp);
+term = (-2)* log(1-(double)rand()/RAND_MAX);
+fprintf(fp,"%lf\n",term);
 }
 fclose(fp);
-fclose(fp2);
-return ;
 }
